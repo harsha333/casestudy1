@@ -58,7 +58,3 @@ def predict():
     prediction = dict_labels[y_qp_pred]
 
     return jsonify({'prediction': prediction})
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
