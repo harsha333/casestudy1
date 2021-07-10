@@ -3,7 +3,6 @@ import numpy as np
 import joblib
 import pandas as pd
 import numpy as np
-from bs4 import BeautifulSoup
 import re
 from datetime import datetime
 from sklearn.ensemble import RandomForestClassifier
